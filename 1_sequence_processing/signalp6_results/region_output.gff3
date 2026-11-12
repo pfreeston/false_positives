@@ -1,0 +1,13 @@
+## gff-version 3
+Epi1	SignalP-6.0	n-region	1	2	.	.	.	.
+Epi1	SignalP-6.0	h-region	3	13	.	.	.	.
+Epi1	SignalP-6.0	c-region	14	16	.	.	.	.
+EpiC2B	SignalP-6.0	n-region	1	2	.	.	.	.
+EpiC2B	SignalP-6.0	h-region	3	17	.	.	.	.
+EpiC2B	SignalP-6.0	c-region	18	21	.	.	.	.
+P69B	SignalP-6.0	n-region	1	2	.	.	.	.
+P69B	SignalP-6.0	h-region	3	15	.	.	.	.
+P69B	SignalP-6.0	c-region	16	22	.	.	.	.
+Pip1	SignalP-6.0	n-region	1	9	.	.	.	.
+Pip1	SignalP-6.0	h-region	10	26	.	.	.	.
+Pip1	SignalP-6.0	c-region	27	29	.	.	.	.

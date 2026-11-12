@@ -1,0 +1,160 @@
+{
+  "INFO": {
+    "failedjobs": 0,
+    "size": 9
+  },
+  "CSV_FILE": "signalp6_results/prediction_results.txt",
+  "MATURE_FILE": "signalp6_results/processed_entries.fasta",
+  "GFF_FILE": "signalp6_results/output.gff3",
+  "ZIP_FILE": "",
+  "SEQUENCES": {
+    "Ecp36": {
+      "Name": "Ecp36",
+      "Plot_eps": "",
+      "Plot_png": "",
+      "Plot_txt": "",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.9999,
+        0.0001
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "Epi1": {
+      "Name": "Epi1",
+      "Plot_eps": "",
+      "Plot_png": "",
+      "Plot_txt": "",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 16 and 17. Probability 0.977760"
+    },
+    "EpiC1": {
+      "Name": "EpiC1",
+      "Plot_eps": "",
+      "Plot_png": "",
+      "Plot_txt": "",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "EpiC2B": {
+      "Name": "EpiC2B",
+      "Plot_eps": "",
+      "Plot_png": "",
+      "Plot_txt": "",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 21 and 22. Probability 0.976023"
+    },
+    "P69B": {
+      "Name": "P69B",
+      "Plot_eps": "",
+      "Plot_png": "",
+      "Plot_txt": "",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9997
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 22 and 23. Probability 0.818571"
+    },
+    "Pip1": {
+      "Name": "Pip1",
+      "Plot_eps": "",
+      "Plot_png": "",
+      "Plot_txt": "",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.174,
+        0.826
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 29 and 30. Probability 0.771430"
+    },
+    "SSP1": {
+      "Name": "SSP1",
+      "Plot_eps": "",
+      "Plot_png": "",
+      "Plot_txt": "",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.9362,
+        0.0638
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "Six15": {
+      "Name": "Six15",
+      "Plot_eps": "",
+      "Plot_png": "",
+      "Plot_txt": "",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "TIL": {
+      "Name": "TIL",
+      "Plot_eps": "",
+      "Plot_png": "",
+      "Plot_txt": "",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    }
+  },
+  "FORMAT": "none",
+  "ORG": "eukarya",
+  "MODE": "fast",
+  "REGION_GFF_FILE": "signalp6_results/region_output.gff3"
+}

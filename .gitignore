@@ -1,0 +1,67 @@
+# The repo holds the code, the small inputs needed to rerun every prediction,
+# and the AlphaJudge summaries the manuscript tables and figures are built from.
+# Predicted structures and other bulky outputs are on Zenodo (built by
+# 8_zenodo/build_zenodo_deposit.py). Generated tables, figures and PDFs are not
+# committed; regenerate them with the scripts in 7_manuscript/.
+
+# Secrets, local configuration and private originals (see tools/make_public_copies.py)
+private/
+.env
+.env.*
+!.env-example
+
+# Python / editor clutter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# Prediction outputs and MSAs (on Zenodo)
+2_boltz/boltz_results*/
+3_af3/server/
+3_af3/cluster/outputs*/
+4_afm/
+from_cluster/
+**/msas/
+*.pkl
+*.pkl.gz
+*.cif
+*.pdb
+*.npz
+
+# AlphaJudge per-run reports and logs (regenerable; summaries are committed)
+5_alpha_judge/*_report.pdf
+5_alpha_judge/rename_log.tsv
+*.log
+logs/
+
+# Generated manuscript tables, figures and PDF (regenerate with 7_manuscript/*.py)
+7_manuscript/alphajudge_mature_by_*.csv
+7_manuscript/iptm_ptm_by_*.csv
+7_manuscript/iptm_ptm_table*
+7_manuscript/metric_separation.csv
+7_manuscript/metric_stats.json
+7_manuscript/manuscript_table/complexes.csv
+7_manuscript/manuscript_table/proteins.csv
+7_manuscript/manuscript_table/tables*
+7_manuscript/fig_*
+7_manuscript/manuscript_tables_and_figures.*
+*.pdf
+*.html
+
+# Analyses not used in the manuscript
+6_energetics/
+2_boltz/tables/
+2_boltz/make_energetics_table.py
+7_manuscript/make_energetics_table.py
+7_manuscript/energetics_*
+5_alpha_judge/afm_summary.csv
+
+# Private: the screen spreadsheet (its scores are in 7_manuscript/afm_screen_scores.csv)
+*.xlsx
+
+# Zenodo deposit build products
+8_zenodo/deposit/
+8_zenodo/staging/

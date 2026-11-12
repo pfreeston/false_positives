@@ -1,0 +1,22 @@
+# Local analysis environment (sequence processing, AlphaJudge, manuscript tables
+# and figures). Prediction software ran on the cluster; see CLUSTER_SETUP.md.
+#
+# SignalP 6.0 (used once, in 1_sequence_processing/, to trim signal peptides) is
+# licence-restricted and not installable from here: download it from DTU Health
+# Tech and `pip install` the package into this environment if needed.
+#
+# The manuscript scripts were run with Python 3.13, pandas 2.3, matplotlib 3.10;
+# the versions below are compatible.
+name: false_positives
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy<2
+  - pandas
+  - matplotlib
+  - biopython=1.88
+  - pip:
+      - alphajudge==1.4.5
+      - torch==1.13.1   # SignalP 6

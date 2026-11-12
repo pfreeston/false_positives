@@ -1,0 +1,10 @@
+outputs_afm_matched/p69b__epi1
+outputs_afm_matched/p69b__epic1
+outputs_afm_matched/p69b__epic2b
+outputs_afm_matched/p69b__ecp36
+outputs_afm_matched/p69b__ssp1
+outputs_afm_matched/p69b__six15
+outputs_afm_matched/p69b__til
+outputs_afm_matched/pip1__epi1
+outputs_afm_matched/pip1__epic1
+outputs_afm_matched/pip1__epic2b

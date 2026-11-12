@@ -1,0 +1,19 @@
+{
+  "_comment": "DRAFT metadata for the Zenodo web form or REST API. Fill in every TODO before publishing; remove this key.",
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "Predicted structures of tomato hydrolase-effector complexes (P69B, Pip1) from AlphaFold-Multimer, AlphaFold 3 and Boltz-2",
+    "creators": [
+      {"name": "Freeston, Phoebe", "affiliation": "University of Oxford", "orcid": "TODO"}
+    ],
+    "description": "<p>Predicted structures and per-model confidence data (pLDDT, PAE, ipTM, pTM) for ten tomato hydrolase-effector complexes (P69B with Ecp36, Epi1, EpiC1, EpiC2B, SSP1, Six15 and TIL; Pip1 with Epi1, EpiC1 and EpiC2B), each predicted with seven method and MSA-database combinations: Boltz-2 (ColabFold MSAs and reduced-database MSAs), AlphaFold 3 (local, reduced and full-database MSAs), AlphaFold Server, and AlphaFold-Multimer v3 (full and reduced databases). AlphaJudge interface metrics for every model are included. See README.md for file layout, software versions and parameters.</p>",
+    "access_right": "TODO: open | embargoed | restricted (embargoed until publication is common)",
+    "license": "TODO: must be compatible with the AlphaFold 3 / AlphaFold Server output terms included in af3_*.zip (non-commercial); e.g. cc-by-nc-sa-4.0",
+    "keywords": ["protein complex prediction", "AlphaFold-Multimer", "AlphaFold 3", "Boltz-2", "plant immunity", "effector", "subtilase", "papain-like cysteine protease", "false positives"],
+    "related_identifiers": [
+      {"identifier": "https://github.com/pfreeston/false_positives", "relation": "isSupplementTo", "resource_type": "software"},
+      {"identifier": "TODO: manuscript DOI", "relation": "isSupplementTo", "resource_type": "publication-article"}
+    ],
+    "version": "1.0"
+  }
+}

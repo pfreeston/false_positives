@@ -1,0 +1,25 @@
+af3:
+  image: <DATA>/af3/containers/alphafold3_custom.sif
+  model_dir: /apps/common/commercial/AlphaFold3/model
+  db_dir: /apps/datasets/alphafold3/public_databases
+
+paths:
+  fasta_root: inputs/fastas
+  json_root: work_afm_matched/json
+  monomer_json_dir: work_afm_matched/json/monomers
+  multimer_json_dir: work_afm_matched/json/multimers
+  json_pipeline_dir: work_afm_matched/json/pipeline
+  results_dir: outputs_afm_matched
+  json_input_dir: work_afm_matched/json/input
+
+workflow:
+  # Workflow modes:
+  # monomer  → FASTA → pipeline → inference
+  # multimer → FASTA → pipeline → multimer → inference
+  mode: multimer
+  pairing_strategy: all_vs_all
+
+selection:
+  left_group: plants
+  right_group: pathogens
+  query_name: p69b
